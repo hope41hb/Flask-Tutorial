@@ -6,10 +6,8 @@
 
 <body>
     <h1>Home Page!</h1>
-    {% for x in range(10) %}
-    {% if x % 2 != 0 %}
+    {% for x in content %}
     <p>{{x}}</p>
-    {% endif %}
     {% endfor %}
 </body>
 
